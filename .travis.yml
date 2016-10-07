@@ -13,13 +13,10 @@ script:
   - sudo sh script.sh
 
 after_script:
-  - ls
   - cd manuscript
-  - ls
   - ls -l *.md | sort -g | awk '{print $9}'
   - ls *.md | sort -g > Book.txt
   - cd ..
-  - ls
   - git init
   - git remote -v
   - git remote rm origin
