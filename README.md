@@ -1,4 +1,6 @@
 # CI-LiterateProgramming
+El principal objetivo de éste opensource es facilitar la manera en que los autores escriben sus de libros técnicos de programación. De ésta manera resulta más fácil, ya que el código que den como ejemplo lo verifican para saber si arrojó el resultado que ellos esperan.
+
 La Integración contínua junto con la Programación Literaria es poco conocida, puesto que no hay mucha relación, sin embargo, en éste ... se explicará la configuración necesaria usando:
 
 * Travis CI
