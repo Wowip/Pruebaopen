@@ -38,6 +38,7 @@ after_script:
   - git checkout nuevo
   - git status
   - git add .
+  - git ls
   - git commit -m "commit 1"
   - git status
   - git checkout master
