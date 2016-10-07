@@ -1,9 +1,5 @@
 language: r
 sudo: required
-
-branches:
-  only:
-  - nuevo
   
 install:
   - sudo Rscript -e "install.packages('knitr', repos = c('http://yihui.name/xran', 'http://cran.rstudio.org'), type = 'source')"
