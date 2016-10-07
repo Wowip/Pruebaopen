@@ -16,6 +16,7 @@ after_script:
   - cd manuscript
   - ls -l *.md | sort -g | awk '{print $9}'
   - ls *.md | sort -g > Book.txt
+  - ls
   - cd ..
   - git init
   - git remote -v
