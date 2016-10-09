@@ -7,7 +7,8 @@ La Integración contínua junto con la Programación Literaria es poco conocida,
 También, se necesitará tener conocimiento de:
 
 * Markdown
-* Pweave
+* Knitr
+
 * SSH
 
 Éstas herramientas nos ayudarán a dar el resultado que el código que ahí se escriba, sin necesidad de probarlo nosotro mismos y arrojándonos también las gráficas que de ellas resulten.
