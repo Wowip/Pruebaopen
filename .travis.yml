@@ -30,4 +30,4 @@ after_script:
   - git checkout master
   - git add .
   - git commit -m "commit 1"
-  - git push 
+  - git push origin master
