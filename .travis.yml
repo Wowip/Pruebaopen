@@ -27,7 +27,7 @@ after_script:
   - ssh -T git@github.com
   - git config --global user.email "arturoinosencio@gmail.com"
   - git config --global user.name "Wowip"
-  - git config --global push.default simple
+  - git checkout master
   - git add .
   - git commit -m "commit 1"
   - git push 
