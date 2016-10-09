@@ -1,4 +1,4 @@
-	# CI-LiterateProgramming
+# CI-LiterateProgramming
 La Integración contínua junto con la Programación Literaria es poco conocida, puesto que no hay mucha relación, sin embargo, en éste OpenSource se explicad la configuración para poder realizar libros técnicos de programación aplicando la integración contínua. Para ello es necesario usar:
 
 * Travis CI
@@ -14,8 +14,10 @@ También, se necesitará tener conocimiento de:
 
 Una de las principales razones por las que se realiza de ésta manera es que las computadoras son diferentes en cuanto a la persona que escribe el libro y a quien va dirigido.
 
+
 ## Literate Programming
 La programación literaria, se refiere al modo en que se programa donde el código se explica con un lenguaje natural. Es diferente a la documentación, porque en el mismo documento donde se escribe con lenguaje normal, se dan los resultados que arroja que código que pongamos como ejemplo.
+
 
 ## Knitre 
 Knitre nos ayuda a usar la programación literaria ya que es una librería que nos ayuda a arrojar los resultados que tengamos en un archivo .Rmd con código de R. 
@@ -28,17 +30,17 @@ En éste opensource, se integra de manera contínua y la instalación y los reus
 
 
 ## GitHub
-Será necesario crear un repositorio donde alojaremos el código. Para ello, crearemos uno nuevo en github. A éste le llamaremos "Nuestrolibro"
+Github nos ayudará a alamecenar los archivos .md.Estos archivos contrendrán los reusltados que se obtengan del código a partir de los archivos .Rmd
 
-Luego, será necesario relacionar nuestro repositorio con Travis CI.
+Githubnos ayudará a:
 
-Las razones por las que se usa GitHub son:
+ - Nos ayudará a almacenar los archivos .md
+ - Junto con Travis, las gráficas que se generen al hacer la integración contínua se guardarán en una carpeta llamada images. 
 
- - Nos ayudará a almacenar los archivos .md que serán los que contengan el libro
- - Junto con Travis, las gráficas que se generen al hacer la integración contínua se guardarán en una carpeta llamada  manuscript 
+
 
 ## TravisCI
-En Travis se instalan todos los programas que se requieren. Para ello, en nuestro repositorio que contenga el libro, tendremos que crear un archivo llamado ".travis.yml". 
+En Travis se instalan todos los programas que se requieren y se ejecuta el script llamado ".travis.yml" para ello, en nuestro repositorio que contenga el libro, tendremos que crear el archivo y escribir lo que en éste repositorio haya. 
 Lo que hace éste archivo es ejecutar todo lo que le digamos tal y como si estuvieramos en la consola de Linux. en éste Opensource se deja el script listo para su uso. 
 
 
