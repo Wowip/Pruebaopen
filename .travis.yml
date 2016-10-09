@@ -20,8 +20,6 @@ after_script:
   - git remote -v
   - sudo chmod 600 .ssh/id_rsa
   - sudo chmod 600 .ssh/id_rsa.pub
-  - ls -a
-  - ls -al .ssh
   - eval "$(ssh-agent -s)"
   - ssh-add .ssh/id_rsa
   - ssh -T git@github.com
