@@ -20,6 +20,7 @@ opts_chunk$set(fig.path = "images/")
 plot(1:10)
 ```
 
+
 ## inline code
 
 Yes I know the value of pi is `r pi`, and 2 times pi is `r 2*pi`.
