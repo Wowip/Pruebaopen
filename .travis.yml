@@ -27,5 +27,5 @@ after_script:
   - git config --global user.name "Wowip"
   - git add .
   - git commit -m "Subiendo md"
-  - git pull
+  - git pull origin master
   - git push origin master
