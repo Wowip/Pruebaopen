@@ -1,7 +1,7 @@
 # CI-LiterateProgramming
-La Integración contínua junto con la Programación Literaria resulta poco familiar, puesto que no hay mucha relación ni información de ámbas herramientas juntas. Éste Opensource ayudará principalmente a los autores de libros técnicos que quieran integrar el código que se encuentre en sus libros. esto resulta apropiado, puesto que muchas veces los autores prueban los ejercicios de sus libros en sus propias máquinas y no en un entorno límpio, es decir, muchas veces se cree que el lector tiene ya todas las herramientas necesarias.
+La Integración continua junto con la Programación Literaria resulta poco familiar, puesto que no hay mucha relación ni información de ámbas herramientas juntas. Éste Opensource ayudará principalmente a los autores de libros técnicos que quieran integrar el código que se encuentre en sus libros. Esto resulta apropiado, puesto que muchas veces los autores prueban los ejercicios de sus libros en sus propias máquinas y no en un entorno límpio, es decir, muchas veces se cree que el lector tiene ya todas las herramientas necesarias.
 
-En éste OpenSource se explica la configuración para poder realizar libros técnicos de programación aplicando la integración contínua. Para ello es necesario usar:
+En éste OpenSource se explica la configuración para poder realizar libros técnicos de programación aplicando la integración continua. Para ello es necesario usar:
 
 * Travis CI
 * GitHub
@@ -26,7 +26,7 @@ Cabe resaltar que existen diferentes librerias dependiendo el lenguaje que estem
 ## Knitr
 Knitre nos ayuda a realizar la programación literaria ya que es una librería de R, la cual nos arroja los resultados que tengamos en un archivo .Rmd con código de R y nos devuelve un nuevo archivo .md, el cual es muy fácil de visualizarlos.
 
-Si queremos primero hacer las pruebas localmente, será necesario instalar R y Knitr y para ello, se deja el siguiente link donde se explica más a detalle la instalación y la sintaxis que se debe usar para poner el código que se reconocerá y se ejecutará.
+Si queremos primero hacer las pruebas localmente, será necesario instalar R y Knitr y para ello, se deja el siguiente link donde se explica más a detalle la instalación y la sintáxis que se debe usar para poner el código que se reconocerá y se ejecutará.
 
 http://yihui.name/knitr/
 
@@ -34,28 +34,28 @@ En éste OpenSource, la instalación se encuentra en el archivo .travis.yml, por
 
 
 ## GitHub
-Github nos ayudará a alamecenar los archivos .md. Estos archivos contrendrán los reusltados que se obtengan del código a partir de los archivos .Rmd. Es necesario crear un nuevo repositorio y vincularlo con TravisCI
+Github nos ayudará alamecenar los archivos .md. Estos archivos contrendrán los resultados que se obtengan del código a partir de los archivos .Rmd. Es necesario crear un nuevo repositorio y vincularlo con TravisCI.
 
 Github nos ayudará a:
 
  - Almacenar los archivos .Rmd y .md.
- - Junto con Travis, las gráficas que se generen al hacer la integración contínua se guardarán en una carpeta llamada images. 
+ - Junto con Travis, las gráficas que se generen al hacer la integración continua se guardarán en una carpeta llamada images. 
 
 
 ## TravisCI
 En Travis se instalan todos los programas que se requieren a partir del script llamado ".travis.yml". Éste archivo tiene que estar en nuestro repositorio.
 
-Lo que hace éste archivo es ejecutar todo lo que le digamos tal y como si estuvieramos en la consola de Linux. en éste Opensource se deja el script listo para su uso y si se quiere, se puede clonar este OpenSource sólo cambiando las llaves SSH que más abajo se explicará.
+Lo que hace éste archivo es ejecutar todo lo que le digamos tal y como si estuvieramos en la consola de Linux. En éste Opensource se deja el script listo para su uso y si se quiere, se puede clonar este OpenSource sólo cambiando las llaves SSH que más abajo se explicará.
 
 
 ## SSH
-Es necesario crear llaves ssh, ya que Travis CI al ser una herramienta de integración contínua, nos pedirá autenficiarnos para hacer push a nuestro repositorio y subir los archivos .md que se generen.
+Es necesario crear llaves ssh, ya que Travis CI al ser una herramienta de integración continua, nos pedirá autentificarnos para hacer push a nuestro repositorio y subir los archivos .md que se generen.
 
-Para generar las llaves, entramos a la carpeta con el siguiente comando
+Para generar las llaves, entramos a la carpeta con el siguiente comando:
 
 	cd ~/.ssh
 
-Después, creamos las llaves
+Después, creamos las llaves:
 
 	ssh-keygen
 
