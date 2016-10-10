@@ -1,4 +1,4 @@
-# A minimal R Markdown example
+# Ejemplos de R
 
 A quote:
 
