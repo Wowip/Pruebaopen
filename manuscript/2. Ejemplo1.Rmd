@@ -22,6 +22,11 @@ A _paragraph_ here. A code chunk below (remember the three backticks):
 
 ## graphics
 
+```{r}
+opts_chunk$set(fig.path = "images/")
+```
+
+
 ##Gráfica 1
 ```{r}
 plot(1:10)
