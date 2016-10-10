@@ -26,7 +26,6 @@ after_script:
   - git config --global user.email "arturoinosencio@gmail.com"
   - git config --global user.name "Wowip"
   - git add .
-  - git pull
   - git commit -m "Subiendo md"
   - git pull
   - git push origin master
