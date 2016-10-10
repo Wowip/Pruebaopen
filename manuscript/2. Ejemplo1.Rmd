@@ -22,13 +22,12 @@ A _paragraph_ here. A code chunk below (remember the three backticks):
 
 ## graphics
 
-It is easy.
-
-
+##Gráfica 1
 ```{r}
 plot(1:10)
 ```
 
+##Gŕafica 2
 ```{r}
 hist(rnorm(1000))
 ```
