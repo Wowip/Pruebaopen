@@ -9,12 +9,6 @@ A _paragraph_ here. A code chunk below (remember the three backticks):
 .4-.7+.3 # what? it is not zero!
 ```
 
-## graphics
-
-```{r}
-opts_chunk$set(fig.path = "images/")
-```
-
 ##Gráfica 1
 ```{r}
 plot(1:10)
