@@ -27,6 +27,9 @@ It is easy.
 
 ```{r}
 plot(1:10)
+```
+
+```{r}
 hist(rnorm(1000))
 ```
 
