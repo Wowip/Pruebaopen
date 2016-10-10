@@ -23,7 +23,7 @@ La programación literaria, se refiere al modo en que se programa donde el códi
 Cabe resaltar que existen diferentes librerias dependiendo el lenguaje que estemos usando, en este caso, usaremos una librería llamada Knitr, la cual está dirigida al lenguaje de programación R.
 
 
-## Knitre 
+## Knitr
 Knitre nos ayuda a realizar la programación literaria ya que es una librería de R, la cual nos arroja los resultados que tengamos en un archivo .Rmd con código de R y nos devuelve un nuevo archivo .md, el cual es muy fácil de visualizarlos.
 
 Si queremos primero hacer las pruebas localmente, será necesario instalar R y Knitr y para ello, se deja el siguiente link donde se explica más a detalle la instalación y la sintaxis que se debe usar para poner el código que se reconocerá y se ejecutará.
