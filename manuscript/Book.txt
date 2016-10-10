@@ -1,8 +1,0 @@
-1. Hola mundo.md
-2. Ejemplo1.md
-3. Ejemplo2.md
-4. Ejemplo3.md
-5. Ejemplo4.md
-6. Ejemplo 5.md
-7. Ejemplo6.md
-8. Prueba.md
