@@ -17,7 +17,7 @@ opts_chunk$set(fig.path = "images/")
 
 ##Gráfica 1
 ```{r}
-hist(rnorm(1000))
+plot(1:10)
 ```
 
 ## inline code
