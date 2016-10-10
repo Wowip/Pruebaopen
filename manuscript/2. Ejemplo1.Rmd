@@ -24,9 +24,6 @@ A _paragraph_ here. A code chunk below (remember the three backticks):
 
 It is easy.
 
-```{r}
-opts_chunk$set(fig.path = "images/") # corrected path and added dev
-```
 
 ```{r}
 plot(1:10)
