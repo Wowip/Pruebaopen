@@ -34,22 +34,22 @@ En éste OpenSource, la instalación se encuentra en el archivo .travis.yml, por
 
 
 ## GitHub
-Github nos ayudará a alamecenar los archivos .md.Estos archivos contrendrán los reusltados que se obtengan del código a partir de los archivos .Rmd
+Github nos ayudará a alamecenar los archivos .md. Estos archivos contrendrán los reusltados que se obtengan del código a partir de los archivos .Rmd. Es necesario crear un nuevo repositorio y vincularlo con TravisCI
 
-Githubnos ayudará a:
+Github nos ayudará a:
 
- - Nos ayudará a almacenar los archivos .md
+ - Almacenar los archivos .Rmd y .md.
  - Junto con Travis, las gráficas que se generen al hacer la integración contínua se guardarán en una carpeta llamada images. 
 
 
-
 ## TravisCI
-En Travis se instalan todos los programas que se requieren y se ejecuta el script llamado ".travis.yml" para ello, en nuestro repositorio que contenga el libro, tendremos que crear el archivo y escribir lo que en éste repositorio haya. 
-Lo que hace éste archivo es ejecutar todo lo que le digamos tal y como si estuvieramos en la consola de Linux. en éste Opensource se deja el script listo para su uso. 
+En Travis se instalan todos los programas que se requieren a partir del script llamado ".travis.yml". Éste archivo tiene que estar en nuestro repositorio.
+
+Lo que hace éste archivo es ejecutar todo lo que le digamos tal y como si estuvieramos en la consola de Linux. en éste Opensource se deja el script listo para su uso y si se quiere, se puede clonar este OpenSource sólo cambiando las llaves SSH que más abajo se explicará.
 
 
 ## SSH
-Es necesario crear llaves ssh, ya que TravisCI al ser integración contínua, no podemos autentificarnos para hacer push a nuestro repositorio y subir los archivos .md que se generen.
+Es necesario crear llaves ssh, ya que Travis CI al ser una herramienta de integración contínua, nos pedirá autenficiarnos para hacer push a nuestro repositorio y subir los archivos .md que se generen.
 
 Para generar las llaves, entramos a la carpeta con el siguiente comando
 
@@ -59,6 +59,8 @@ Después, creamos las llaves
 
 	ssh-keygen
 
-Seguidamente, copiamos todas las llaves que generamos y las subimos a nuestro repositorio github en una carpeta nueva llamada ".ssh", ésta carpeta contendrá los archivos "id_rsa", "id_rsa.pub" y "known_hosts
+Seguidamente, copiamos estas llaves creadas y las subimos a nuestro repositorio github en una carpeta nueva llamada ".ssh", ésta carpeta contendrá los archivos "id_rsa", "id_rsa.pub" y "known_hosts.
+
+##Worklflow
 
 
