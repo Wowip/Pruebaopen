@@ -28,4 +28,5 @@ after_script:
   - git branch
   - git add .
   - git commit -m "Subiendo md"
+  - git status
   - git push origin master
