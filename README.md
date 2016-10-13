@@ -12,7 +12,7 @@ Y tener conocimiento de:
 * Knitr
 * SSH
 
-Éstas herramientas nos arrojarán los resultados que se programen, sin necesidad de que los autores lo prueben y además, arrojándonos las gráficas que de ellas resulten.
+Estas herramientas nos arrojarán los resultados que se programen, sin necesidad de que los autores lo prueben y además, arrojándonos las gráficas que de ellas resulten.
 
 Una de las principales razones por las que se realiza de ésta manera es porque las computadoras son diferentes en cuanto al autor y al lector.
 
